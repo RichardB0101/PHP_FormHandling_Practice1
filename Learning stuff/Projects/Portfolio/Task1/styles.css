@@ -1,0 +1,17 @@
+.wrapper {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding: 1% 10% 7% 5%;
+  width: 100px;
+  border: 2px solid black;
+}
+input[type="button"],
+input[type="submit"] {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}

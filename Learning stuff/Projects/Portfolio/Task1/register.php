@@ -10,26 +10,28 @@
   <body>
 
     <div class="wrapperLogin">
-    <form action="addon.php" id="loginForm">
-      <label>Username:</label></br>
+    <form action="addon.php" id="regForm" method="post">
+      <label>Create username:</label></br>
       <input
-        id="usernameLogin"
+        id="usernameReg"
         type="text"
         name="username"
-        placeholder="Enter username"
       /></br></br>
-      <label>Password:</label></br>
+      <label>Create password:</label></br>
       <input
-        id="passwordLogin"
+        id="passwordReg"
         type="text"
         name="password"
-        placeholder="Enter password"
-      /></br>
-      <button type="submit" >Login</button></br></br>
-      <button type="submit">Create account</button>
-    </div>
-    </form>
+      /></br></br>
+      <label>Enter birthdate:</label></br>
+      <input type="date" id="birthDate" name="birthDate" value="2022-1-1" min=1860-12-31 max="2022-01-01">
+      </br></br>
 
+      <button type="submit" >Create account</button></br></br>
+      <button type="submit">Login</button>
+    
+    </form>
+    </div>
 
   </body>
 </html>

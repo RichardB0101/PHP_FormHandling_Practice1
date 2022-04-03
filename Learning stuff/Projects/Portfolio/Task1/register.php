@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Register</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
+<?php include_once 'header.php';?>
 
-    <div class="wrapperLogin">
     <form action="addon.php" id="regForm" method="post">
       <label>Create username:</label></br>
       <input
@@ -31,8 +21,6 @@
       <button type="submit">Login</button>
     
     </form>
-    </div>
-
-  </body>
-</html>
+    
+    <?php include_once 'footer.php'; ?>
     

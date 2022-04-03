@@ -10,3 +10,9 @@
   width: 100px;
   border: 2px solid black;
 }
+.uniqueNum {
+  font-size: 300px;
+  text-align: center;
+  width: auto;
+  margin: auto;
+}

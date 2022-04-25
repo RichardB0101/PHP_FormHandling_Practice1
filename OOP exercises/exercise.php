@@ -13,6 +13,7 @@ class Character{
         $this->name = $name;
         $this->class = $class;
         $this->level = $level;  
+        echo "Welcome to the world " . $this->name . "! </br> Your current level is: " . $this->level . "</br> Picked class: " . $this->class;
     }
     
     function getName(){
@@ -32,3 +33,4 @@ class Character{
 echo "<h2>PHP OOP exercises:</h2>";
 
 $lancelot = new Character("Lancelot642", "Knight", 1);
+
